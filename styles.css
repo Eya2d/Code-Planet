@@ -734,7 +734,9 @@ button,textarea {
 }
 
 .editor-pane,.preview-pane {
-  padding:14px
+  padding: 14px;
+  overflow: visible;
+  min-height: max-content;
 }
 
 .code {
@@ -1237,6 +1239,14 @@ button,textarea {
 
   .planet-project-actions {
     grid-template-columns:1fr
+  }
+
+  .level-name {
+    display: block;
+    width: max-content;
+  }
+  .level-btn {
+    min-width: auto;
   }
 }
 
