@@ -1245,6 +1245,10 @@ button,textarea {
     display: block;
     width: max-content;
   }
+  .level-sub {
+    display: block;
+    width: max-content;
+  }
   .level-btn {
     min-width: auto;
   }
